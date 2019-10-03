@@ -3,6 +3,13 @@ name: Node CI
 on: [push]
 
 jobs:
+  update_draft_release:
+    runs-on: ubuntu-latest
+    steps:
+      # Drafts your next Release notes as Pull Requests are merged into "master"
+      - uses: toolmantim/release-drafter@v5.2.0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
   lint:
     name: Node Code Formatter
     runs-on: ubuntu-latest
