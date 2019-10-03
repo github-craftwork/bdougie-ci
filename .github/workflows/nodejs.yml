@@ -3,7 +3,7 @@ name: Node CI
 on: [push]
 
 jobs:
-    lint:
+  lint:
     name: Node Code Formatter
     runs-on: ubuntu-latest
     steps:
