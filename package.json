@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bdougie/theWeekNum.git"
+    "url": "git+https://github.com/github-craftwork/bdougie-ci.git"
   },
-  "author": "bdougie",
+  "author": "github-craftwork",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/bdougie/theWeekNum/issues"
+    "url": "https://github.com/github-craftwork/bdougie-ci/issues"
   },
-  "homepage": "https://github.com/bdougie/theWeekNum#readme",
+  "homepage": "https://github.com/github-craftwork/bdougie-ci#readme",
   "devDependencies": {
     "jest": "^24.8.0"
   },
